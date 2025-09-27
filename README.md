@@ -6,19 +6,26 @@ This is a **Node.js + Express backend server** built for handling authentication
 
 ## 📂 Project Structure
 
-```
+
 Project/
-│── server/
-│   ├── src/
-│   │   └── index.js        # Main server entry point
-│   ├── .env                # Environment variables
-│   ├── package.json        # Dependencies & scripts
-│   ├── package-lock.json
-│   └── node_modules/       # Installed packages
-```
+│── server/ # Backend (Node.js + Express)
+│ ├── src/
+│ │ └── index.js # Main server entry point
+│ ├── .env # Environment variables
+│ ├── package.json # Backend dependencies & scripts
+│ ├── package-lock.json
+│ └── node_modules/
 
----
-
+│── client/ # Frontend (React)
+│ ├── public/
+│ │ └── index.html # Entry HTML file
+│ ├── src/
+│ │ ├── App.js # Main React component
+│ │ ├── index.js # React DOM rendering
+│ │ └── components/ # Reusable UI components
+│ ├── package.json # Frontend dependencies & scripts
+│ ├── package-lock.json
+│ └── node_modules/
 ## ⚙️ Installation
 
 1. Clone the repository:
